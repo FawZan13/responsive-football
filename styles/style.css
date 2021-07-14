@@ -211,27 +211,27 @@ i{
 
 /* Mobile Devices */
 @media only screen and (max-width:688px) {
-section, footer{
-    width:100%;
+    section, footer{
+        width:100%;
+    }
+    .top-banner, .highlights{
+        flex-direction: column;
+    }
+    .players, .posts, .gallery-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
-.top-banner, .highlights{
-    flex-direction: column;
-}
-.players, .posts, .gallery-image{
-    grid-template-columns: repeat(1, 1fr);
-}
- }
 
 /* Tablet Device */
 
 @media only screen and (min-width:688px) and (max-width:992px){
-section, footer{
-    width:100%;
+    section, footer{
+        width:100%;
+    }
+    .top-banner, .highlights{
+        flex-direction: column;
+    }
+    .players, .posts, .gallery-image{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
-.top-banner, .highlights{
-    flex-direction: column;
-}
-.players, .posts, .gallery-image{
-    grid-template-columns: repeat(2, 1fr);
-}
- }
